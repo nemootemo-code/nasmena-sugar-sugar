@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7B315F">
+<title>Nasmena Sugar Sugar 🍭</title>
+<style>
+:root{--plum:#7B315F;--plum-dark:#4F1E3D;--text:#3A2631}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:var(--text);
+background:radial-gradient(circle at 10% 10%,#fceaf3 0 12%,transparent 28%),radial-gradient(circle at 90% 20%,#ead1df 0 10%,transparent 28%),linear-gradient(145deg,#fffaf7,#f8e8f0);
+display:flex;justify-content:center}
+.page{width:100%;max-width:520px;padding:25px 18px 34px;text-align:center}
+.video-card{position:relative;overflow:hidden;border-radius:24px;background:#fff;box-shadow:0 16px 40px rgba(79,30,61,.16);margin-bottom:22px}
+.video-card video{display:block;width:100%;aspect-ratio:9/16;max-height:680px;object-fit:cover;background:#f3dce7}
+h1{margin:16px 0 4px;font-size:27px;color:var(--plum-dark)}
+.tagline{margin:0 0 20px;font-size:14px;opacity:.8}
+.links-title{font-size:15px;font-weight:700;color:var(--plum-dark);margin:0 0 12px}
+.links{display:grid;gap:11px}
+.link{text-decoration:none;color:var(--plum-dark);background:rgba(255,255,255,.9);border:1px solid rgba(123,49,95,.10);border-radius:16px;padding:15px 18px;display:flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:700;box-shadow:0 7px 18px rgba(79,30,61,.08);transition:.18s ease}
+.link:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(79,30,61,.14)}
+.icon-small{font-size:20px}.footer{margin-top:22px;font-size:12px;opacity:.6}
+</style>
+</head>
+<body>
+<main class="page">
+
+  <section class="video-card">
+    <video controls playsinline autoplay muted loop preload="metadata">
+      <source src="nasmena-video.mp4" type="video/mp4">
+      Your browser does not support video playback.
+    </video>
+  </section>
+
+  <h1>Nasmena Sugar Sugar</h1>
+  <p class="tagline">Pick your sweetness 🍭</p>
+
+  <p class="links-title">Find us & follow the sweetness 🍬</p>
+  <nav class="links">
+    <a class="link" href="https://www.instagram.com/nasmena_sugar_sugar?srtk=MWgxaXlrMG9iNDBzbg==" target="_blank" rel="noopener"><span class="icon-small">📸</span>Instagram</a>
+    <a class="link" href="https://www.tiktok.com/@nasmena_sugar_sugar?_r=1&_t=ZS-9AOS03A4WtK" target="_blank" rel="noopener"><span class="icon-small">🎵</span>TikTok</a>
+    <a class="link" href="https://www.facebook.com/share/1C6DQxx97h/" target="_blank" rel="noopener"><span class="icon-small">💙</span>Facebook</a>
+    <a class="link" href="https://wa.me/message/QPFL3AA5YUMJH1" target="_blank" rel="noopener"><span class="icon-small">💬</span>WhatsApp</a>
+  </nav>
+
+  <div class="footer">Made with sweetness by Nasmena Sugar Sugar 🍭</div>
+</main>
+</body>
+</html>
